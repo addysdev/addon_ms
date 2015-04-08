@@ -1,0 +1,17 @@
+@charset "euc-kr";
+/* huation UX R&D Team(http://www.huation.con/) 2013-04-19 */
+
+/* 로그인 페이지 */
+body { margin:0; padding:0; background:#4988bd url(../images/login/login_bg.gif) repeat-x; }
+body, table, td, inpuit { font-family:"돋움", dotum, verdana, Tahoma, sans-serif; font-size:11px; color:#fff; }
+img { border:0; }
+img,input,select,textarea{ vertical-align:middle; }
+#login_container { margin:0 auto; width:530px; height:490px; background:url(../images/login/login_box_bg.gif) no-repeat; }
+#login_top { height:357px; text-align:center; }
+#login_top img { padding-top:196px; }
+#login_box { margin:0 auto; width:355px; }
+#login_box #login td { padding-top:0; vertical-align:top; }
+#login_box #login .text { padding-top:8px; width:74px; }
+#login_box #login .input  { margin:0 10px 9px 0; *margin:-1px 10px 7px 0; padding:0 10px; padding-top:7px\0IE8; *padding-top:7px; width:180px;  height:31px; height:24px\0IE8; *height:24px; border:0 none; background:url(../images/login/login_input_bg.gif) no-repeat; ime-mode:inactive; color:#fff000; font-weight:bold; vertical-align:middle; }
+#login_box #login .idsave { padding-top:10px; }
+#login_box #login .idsave input { margin-top:-1px; }

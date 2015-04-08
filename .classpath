@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="WebRoot/WEB-INF/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/addys.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/classes12.zip"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-configuration.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-email-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-email-1.3.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-email-1.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-email-1.3.2-tests.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-email-1.3.2-test-sources.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/commons-net-reomereome.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/dwr.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/eai-app.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/external-debug.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/Index.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/INICrypto_v3.1.8_signed.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jakarta-regexp-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jazzlib.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jconn3d.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jef-application-parser-jdk5.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/json-lib-2.3-jdk13.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/poi-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/poi-contrib-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/poi-scratchpad-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/rdonadapter.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/smartenforcer.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/ssari.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/struts.jar"/>
+	<classpathentry kind="lib" path="D:/02.addys/workspace/addys_dev/WebRoot/WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

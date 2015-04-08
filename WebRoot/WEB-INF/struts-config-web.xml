@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+
+	<!-- ========== Data Sources Definitions =================================== -->
+	<!--
+		Define your Struts data sources in a file called struts-data-sources.xml and place
+		it in your merge directory.
+	-->
+
+	<!-- ========== Form Bean Definitions =================================== -->
+	<form-beans>
+
+		<!--
+			If you have non XDoclet forms, define them in a file called struts-forms.xml and
+			place it in your merge directory.
+		-->
+	</form-beans>
+
+	<!-- ========== Global Exceptions Definitions =================================== -->
+	<!--
+		Define your exceptions in a file called global-exceptions.xml and place
+		it in your merge directory.
+	-->
+	<global-forwards>
+		<forward name="moveBackFoward"
+			path="/jsp/web/common/moveMsgForward.jsp" />
+	</global-forwards>
+	<!-- ========== Global Forward Definitions =================================== -->
+	<!--
+		Define your forwards in a file called global-forwards.xml and place
+		it in your merge directory.
+	-->
+
+	<!-- ========== Action Mapping Definitions =================================== -->
+<action-mappings>
+	
+	
+		<action path="/H_Login"
+			type="com.web.webaction.login.action.LoginAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="loginForm"
+				path="/jsp/web/common/login/loginForm.jsp" redirect="false" />
+			<forward name="loginOut"
+				path="/jsp/web/common/login/loginForm.jsp" redirect="false" />
+			<forward name="loginProcess"
+				path="/jsp/web/common/main/main.jsp" redirect="false" />
+			<forward name="main"
+				path="/jsp/web/common/main/main.jsp" redirect="false" />
+			<forward name="loginError"
+				path="/jsp/web/common/login/loginError.jsp" redirect="false" />
+			<forward name="scanLoginForm"
+				path="/jsp/web/common/login/scanLoginForm.jsp" redirect="false" />
+			<forward name="scanProcess"
+				path="/jsp/web/common/login/scanProcess.jsp" redirect="false" />
+			<forward name="scanOutboundMain"
+				path="/jsp/web/outbound/scanOutboundMain.jsp" redirect="false" />
+			<forward name="encKey"
+				path="/jsp/web/common/login/encKey.jsp" redirect="false" />
+			<forward name="hiMe"
+				path="/jsp/web/common/login/hiMe.jsp" redirect="false" />
+			<forward name="loginCheck"
+				path="/jsp/web/common/login/loginCheck.jsp" redirect="false" />
+		</action>
+		<action path="/H_Common"
+			type="com.web.webaction.common.action.CommonAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="top"
+				path="/jsp/web/common/main/top.jsp" redirect="false" />
+			<forward name="downLoadForm"
+				path="/jsp/web/common/main/downLoadForm.jsp" redirect="false" />
+			<forward name="initPage"
+				path="/jsp/web/common/main/initPage.jsp" redirect="false" />
+			<forward name="inStateXML"
+				path="/jsp/web/common/main/inStateXML.jsp" redirect="false" />
+			<forward name="MainXML"
+				path="/jsp/web/common/main/MainXML.jsp" redirect="false" />								
+			<forward name="userSearchList"
+				path="/jsp/web/common/user/userSearchList.jsp" redirect="false" />
+			<forward name="userInfoModifyForm"
+				path="/jsp/web/common/user/userInfoModifyForm.jsp" redirect="false" />
+			<forward name="userFrame"
+				path="/jsp/web/common/user/userFrame.jsp" redirect="false" />
+			<forward name="userTreeList"
+				path="/jsp/web/common/user/userTreeList.jsp" redirect="false" />
+			<forward name="faxInquiryAuth"
+				path="/jsp/web/common/group/faxInquiryAuth.jsp" redirect="false" />
+			<forward name="groupChoiceForm"
+				path="/jsp/web/common/group/groupChoiceForm.jsp" redirect="false" />
+			<forward name="groupFrame"
+				path="/jsp/web/common/group/groupFrame.jsp" redirect="false" />
+			<forward name="groupTreeList"
+				path="/jsp/web/common/group/groupTreeList.jsp" redirect="false" />
+			<forward name="groupListXML"
+				path="/jsp/web/common/group/groupListXML.jsp" redirect="false" />
+			<forward name="SearchReciveResultTypeGroupXML"
+				path="/jsp/web/common/group/SearchReciveResultTypeGroupXML.jsp" redirect="false" />
+			<forward name="authFrame"
+				path="/jsp/web/common/auth/authFrame.jsp" redirect="false" />
+			<forward name="authTreeList"
+				path="/jsp/web/common/auth/authTreeList.jsp" redirect="false" />
+			<forward name="groupSelectTree"
+				path="/jsp/web/common/group/groupSelectTree.jsp" redirect="false" />	
+			<forward name="formGroupSelectTree"
+				path="/jsp/web/common/group/formGroupSelectTree.jsp" redirect="false" />
+			<forward name="authGroupSelectTree"
+				path="/jsp/web/common/group/authGroupSelectTree.jsp" redirect="false" />	
+			<forward name="searchMain"
+				path="/jsp/web/common/search/searchMain.jsp" redirect="false" />
+			<forward name="searchGroupTree"
+				path="/jsp/web/common/search/searchGroupTree.jsp" redirect="false" />
+			<forward name="searchUserList"
+				path="/jsp/web/common/search/searchUserList.jsp" redirect="false" />					
+		</action>
+		<action path="/H_Group"
+			type="com.web.webaction.config.action.GroupAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="groupManage"
+				path="/jsp/web/config/groupManage.jsp" redirect="false" />
+			<forward name="groupTreeList"
+				path="/jsp/web/config/groupTreeList.jsp" redirect="false" />
+			<forward name="groupView"
+				path="/jsp/web/config/groupView.jsp" redirect="false" />
+			<forward name="groupXML"
+				path="/jsp/web/config/groupXML.jsp" redirect="false" />
+			<forward name="groupOrderList"
+				path="/jsp/web/config/groupOrderList.jsp" redirect="false" />
+			<forward name="groupAdmin"
+				path="/jsp/web/config/groupAdmin.jsp" redirect="false" />
+			<forward name="groupInfo"
+				path="/jsp/web/config/groupInfo.jsp" redirect="false" />
+			<forward name="groupFaxNumList"
+				path="/jsp/web/config/groupFaxNumList.jsp" redirect="false" />
+			<forward name="groupFaxNumInfo"
+				path="/jsp/web/config/groupFaxNumInfo.jsp" redirect="false" />
+		</action>
+		<action path="/H_Address"
+			type="com.web.webaction.address.action.AddressAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="AddressPageList"
+				path="/jsp/web/common/address/AddressPageList.jsp" redirect="false" />
+			<forward name="AddressRegistForm"
+				path="/jsp/web/common/address/AddressRegistForm.jsp" redirect="false" />
+			<forward name="AddressView"
+				path="/jsp/web/common/address/AddressModifyForm.jsp" redirect="false" />
+			<forward name="AddressPageListPop"
+				path="/jsp/web/common/address/AddressPageListPop.jsp" redirect="false" />
+			<forward name="AddressPageListPopFrame"
+				path="/jsp/web/common/address/AddressPageListPopFrame.jsp" redirect="false" />	
+			<forward name="AddressExcelForm"
+				path="/jsp/web/common/address/addressExcelForm.jsp" redirect="false" />
+			<forward name="AddressExcelList"
+				path="/jsp/web/common/address/AddressExcelList.jsp" redirect="false" />	
+		</action>
+		<action path="/H_User"
+			type="com.web.webaction.user.action.UserAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="userPageList"
+				path="/jsp/web/user/userPageList.jsp" redirect="false" />
+			<forward name="userRegistForm"
+				path="/jsp/web/user/userRegistForm.jsp" redirect="false" />
+			<forward name="userModifyForm"
+				path="/jsp/web/user/userModifyForm.jsp" redirect="false" />
+			<forward name="userExcelList"
+				path="/jsp/web/user/userExcelList.jsp" redirect="false" />
+			<forward name="userXML"
+				path="/jsp/web/user/userXML.jsp" redirect="false" />
+			<forward name="userAgencyBusiness"
+				path="/jsp/web/user/userAgencyBusiness.jsp" redirect="false" />
+			<forward name="userAgencyRegistForm"
+				path="/jsp/web/user/userAgencyRegistForm.jsp" redirect="false" />
+			<forward name="userAgencyModifyForm"
+				path="/jsp/web/user/userAgencyModifyForm.jsp" redirect="false" />
+			<forward name="userGroupTree"
+				path="/jsp/web/user/userGroupTree.jsp" redirect="false" />
+			<forward name="userSearchAuthTree"
+				path="/jsp/web/user/userSearchAuthTree.jsp" redirect="false" />
+			<forward name="userFaxNumList"
+				path="/jsp/web/user/userFaxNumList.jsp" redirect="false" />
+			<forward name="userExcelForm"
+				path="/jsp/web/user/userExcelForm.jsp" redirect="false" />
+			<forward name="userExcelImport"
+				path="/jsp/web/user/userExcelImport.jsp" redirect="false" />
+			<forward name="userFaxNumInfo"
+				path="/jsp/web/user/userFaxNumInfo.jsp" redirect="false" />	
+		</action>
+		<action path="/H_Auth"
+			type="com.web.webaction.config.action.AuthAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="authManage"
+				path="/jsp/web/config/authManage.jsp" redirect="false" />
+			<forward name="authGroupTree"
+				path="/jsp/web/config/authGroupTree.jsp" redirect="false" />
+			<forward name="authTree"
+				path="/jsp/web/config/authTree.jsp" redirect="false" />
+			<forward name="authMenuTree"
+				path="/jsp/web/config/authMenuTree.jsp" redirect="false" />
+			<forward name="userAuthMenuTree"
+				path="/jsp/web/config/userAuthMenuTree.jsp" redirect="false" />
+		</action>
+		<action path="/H_History"
+			type="com.web.webaction.history.action.HistoryAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="loginPageList"
+				path="/jsp/web/history/loginPageList.jsp" redirect="false" />
+			<forward name="loginExcelList"
+				path="/jsp/web/history/loginExcelList.jsp" redirect="false" />
+		</action>
+		<action path="/H_Master"
+			type="com.web.webaction.config.action.MasterAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="productPageList"
+				path="/jsp/web/config/productPageList.jsp" redirect="false" />
+			<forward name="companyExcelForm"
+				path="/jsp/web/config/companyExcelForm.jsp" redirect="false" />
+			<forward name="companyExcelImport"
+				path="/jsp/web/config/companyExcelImport.jsp" redirect="false" />
+			<forward name="productRegistForm"
+				path="/jsp/web/config/productRegistForm.jsp" redirect="false" />
+			<forward name="productModifyForm"
+				path="/jsp/web/config/productModifyForm.jsp" redirect="false" />
+			<forward name="safeStockList"
+				path="/jsp/web/config/safeStockList.jsp" redirect="false" />
+		</action>
+		<action path="/H_Order"
+			type="com.web.webaction.order.action.OrderAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="stockPageList"
+				path="/jsp/web/order/stockPageList.jsp" redirect="false" />
+			<forward name="stockDetailPageList"
+				path="/jsp/web/order/stockDetailPageList.jsp" redirect="false" />
+			<forward name="stockExcelForm"
+				path="/jsp/web/order/stockExcelForm.jsp" redirect="false" />
+			<forward name="targetPageList"
+				path="/jsp/web/order/targetPageList.jsp" redirect="false" />
+			<forward name="targetDetailPageList"
+				path="/jsp/web/order/targetDetailPageList.jsp" redirect="false" />
+			<forward name="orderPageList"
+				path="/jsp/web/order/orderPageList.jsp" redirect="false" />
+			<forward name="orderDetailPageList"
+				path="/jsp/web/order/orderDetailPageList.jsp" redirect="false" />
+			<forward name="orderExcelDetailPageList"
+				path="/jsp/web/order/orderExcelDetailPageList.jsp" redirect="false" />
+		</action>
+		<action path="/H_Recovery"
+			type="com.web.webaction.recovery.action.RecoveryAction" parameter="cmd"
+			unknown="false" validate="false">
+			<forward name="reTargetPageList"
+				path="/jsp/web/recovery/reTargetPageList.jsp" redirect="false" />
+			<forward name="reTargetDetailPageList"
+				path="/jsp/web/recovery/reTargetDetailPageList.jsp" redirect="false" />
+			<forward name="recoveryPageList"
+				path="/jsp/web/recovery/recoveryPageList.jsp" redirect="false" />
+			<forward name="recoveryDetailPageList"
+				path="/jsp/web/recovery/recoveryDetailPageList.jsp" redirect="false" />
+		</action>
+</action-mappings>
+	
+	<!-- If you have non XDoclet actions, define them in a file called struts-actions.xml and place it in your merge directory. -->
+
+	<!-- Define your Struts controller in a file called struts-controller.xml and place it in your merge directory. -->
+
+	<!-- Define your Struts message-resources in a file called struts-message-resources.xml and place it in your merge directory. -->
+
+	<!-- Define your Struts plugins in a file called struts-plugins.xml and place it in your merge directory. -->
+
+</struts-config>
