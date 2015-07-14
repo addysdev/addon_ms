@@ -428,7 +428,7 @@ function makeicon() {
 	
     	
         <!-- 로그인탑 시작 -->
-    	<div id="login_top"></div>
+    	<div id="login_top"><img src="<%= request.getContextPath() %>/images/login/addys-login_logo.jpg" alt="HUEFAX - Fax System Login" /></div>
 		<!-- 로그인탑 끝 -->
         
         <!-- 로그인박스 시작 -->

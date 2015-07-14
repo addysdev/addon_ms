@@ -237,7 +237,7 @@ function addressInfo(){
 	<div id="gnb_logo">
 		<h1>
 			<%--<a href="javascript:reflesh();"><img src="<%=request.getContextPath()%>/images/top/logo.jpg" title="Addys 시스템" /></a> --%>
-			<%-- <a href="javascript:reflesh();"><img src="<%=request.getContextPath()%>/images/top/aiaCI_color.jpg" title="Addys 시스템" /></a> --%>
+			<a href="javascript:reflesh();"><img src="<%=request.getContextPath()%>/images/top/addys-logo.jpg" title="Addys 시스템" /></a>
 		</h1>
 	</div>
 	<!-- 로고 끝 -->
@@ -261,7 +261,7 @@ function addressInfo(){
 				<ul>
 					<!-- 발주관리 시작 -->
 					<li  id="M10000" style="display:lnline" class="dep1">
-					<a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','menu_01','<%=request.getContextPath()%>/images/top/menu_01_on.jpg',1)" onmouseover="MM_nbGroup('over','menu_01','<%=request.getContextPath()%>/images/top/menu_01_on.jpg','<%=request.getContextPath()%>/images/top/menu_01_on.jpg',1)" onmouseout="MM_nbGroup('out')"><img src="<%=request.getContextPath()%>/images/top/menu_01.jpg" alt="" name="menu_01" border="0" id="menu_01" title="발주" onclick="MM_showHideLayers('apDiv1','','show')" onmouseover="MM_showHideLayers('apDiv1','','show')" onmouseout="MM_showHideLayers('apDiv1','','hide')" onload="" /></a>
+					<a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','menu_01','<%=request.getContextPath()%>/images/top/addys-menu_01_on.jpg',1)" onmouseover="MM_nbGroup('over','menu_01','<%=request.getContextPath()%>/images/top/addys-menu_01_on.jpg','<%=request.getContextPath()%>/images/top/addys-menu_01_on.jpg',1)" onmouseout="MM_nbGroup('out')"><img src="<%=request.getContextPath()%>/images/top/addys-menu_01.jpg" alt="" name="menu_01" border="0" id="menu_01" title="발주" onclick="MM_showHideLayers('apDiv1','','show')" onmouseover="MM_showHideLayers('apDiv1','','show')" onmouseout="MM_showHideLayers('apDiv1','','hide')" onload="" /></a>
 						<!-- 서브메뉴 : 발주관리 시작 -->
 						<div id="apDiv1" onclick="MM_showHideLayers('apDiv1','','show')" onmouseover="MM_showHideLayers('apDiv1','','show')" onmouseout="MM_showHideLayers('apDiv1','','hide')" >
 							<ul class="sub_menu">
@@ -275,7 +275,7 @@ function addressInfo(){
 					<!-- 발주관리 끝 -->
 					<!-- 회수관리 시작 -->
 					<li  id="M20000" style="display:lnline" class="dep1">
-					<a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group2','menu_02','<%=request.getContextPath()%>/images/top/menu_02_on.jpg',1)" onmouseover="MM_nbGroup('over','menu_02','<%=request.getContextPath()%>/images/top/menu_02_on.jpg','<%=request.getContextPath()%>/images/top/menu_02_on.jpg',1)" onmouseout="MM_nbGroup('out')"><img src="<%=request.getContextPath()%>/images/top/menu_02.jpg" alt="" name="menu_02" border="0" id="menu_02" title="회수" onclick="MM_showHideLayers('apDiv2','','show')" onmouseover="MM_showHideLayers('apDiv2','','show')" onmouseout="MM_showHideLayers('apDiv2','','hide')" onload=""  /></a>
+					<a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group2','menu_02','<%=request.getContextPath()%>/images/top/addys-menu_02_on.jpg',1)" onmouseover="MM_nbGroup('over','menu_02','<%=request.getContextPath()%>/images/top/addys-menu_02_on.jpg','<%=request.getContextPath()%>/images/top/addys-menu_02_on.jpg',1)" onmouseout="MM_nbGroup('out')"><img src="<%=request.getContextPath()%>/images/top/addys-menu_02.jpg" alt="" name="menu_02" border="0" id="menu_02" title="회수" onclick="MM_showHideLayers('apDiv2','','show')" onmouseover="MM_showHideLayers('apDiv2','','show')" onmouseout="MM_showHideLayers('apDiv2','','hide')" onload=""  /></a>
 						<!-- 서브메뉴 : 회수관리시작 -->
 						<div id="apDiv2" onclick="MM_showHideLayers('apDiv2','','show')" onmouseover="MM_showHideLayers('apDiv2','','show')" onmouseout="MM_showHideLayers('apDiv2','','hide')" >
 							<ul class="sub_menu">
